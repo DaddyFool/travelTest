@@ -1,0 +1,401 @@
+Nov 16th 2015
+Traveler version 1.1.9.1 Date 11/16/2015
+
+- [NEW] Add Season price for Rental
+- [Fix] Some element with gmap not working
+- [Fix] Duplicate words in title tag
+- [Update] Search hotel now only show hotel that contain available rooms
+- [Update] Element ST Slide Location, ST List Location allow filter by Location Type
+- [Update] Element ST Slide Location now can choose the URL type: to single location or to search with current location
+- [Update] Update new style for Calendar, optimize for mobile
+- [Update] Hotel room's price in hotel detail page not working
+- [Update] Element ST Info Tour now can change position of calendar and booking form, can hide and show both Calendar and Booking form
+- [Fix] Improvement with Paypal booking
+- [Update] Visual Composer to 4.8.1
+
+
+
+Oct 30th
+Traveler version 1.1.9 Date 10/30/2015
+
+- [Fix]. Option Page "Redirect after logout" not working
+- [New] New Layout for Partner Page (User Dashboard page)
+- [New] Search for All Post Type Template, you can choose it in the Page Template
+- [New] Availability Calendar for Hotel Room. You can set the season price for each room in hotel
+- [New] Availability Calendar for Tour, the admin and partner page.
+- [New] Now can set the max price for each Equipment in Car (Example: Equip1 ($13/hour) with max $200)
+- [New] Now can set the price for Car based in number of Days (Hours)
+- [New] Add new option allow enable sticky for the header or the menu or both
+- [New] Add new option to allow show Notification once per each session (User seeing this and most recent booking)
+- [Fix] Partner can add the booking in the frontend (User Setting Page)
+- [New] Now you can edit the email after booking, confirm email. We provide many shortcode allow you to customize the email, but only work for Normal Booking, not work with Woocommerce Booking
+- [New] Add Infant price for Tour, Activity
+- [New] Hotel now can input the Hotel Policy, include the checkin checkout time
+- [Fix] Partner now can change the Email Address
+- [New] Tour can input Duration Unit (Hour/Day)
+- [New] Car and Hotel can input the minimum booking days
+- [New] Search Rental by number of room
+- [New] You can use the Google Map (Full map or half map) for search result page
+- [Fix] Show notification after Partner update password in User Settings Page
+- [New] Add new search feild as a Dropdown of the Hotel Name (Car Name, Rental Name...)
+- [New] New search field for Google Map Search, add search by radius, search by Taxonomy (checkbox or dropdown)
+- [New] Now hotel can search by Room facility, add Price slider to search form for Hotel, Rental...
+- [New] Allow change the permalink slug for Hotel Room and Rental Room
+- [New] Hide the admin bar and wp-admin with Partner
+- [Update] Hide the Weather icon when user remove the Lat and Lng of the Location
+- [Fix] Location Detail page not working
+- [Fix] Hotel Logo in Room Detail page not showing
+- [Fix] Tour and Activity not show the Review Stats
+- [Fix] Search field "Location List" not working
+- [Fix] ST Blog  datetime only show in first item
+- [Fix] Nearby Item not working
+
+
+Oct 06th
+Traveler version 1.1.8.1 Date 10/06/2015
+- [Update] Plugin Visual Composer to version 4.7.4
+
+Update version 1.1.8
+Sep 03
+
+- NEW: Use Custom table to save Hotel (Car, Rental..) meta data to improve website speed.Need to use Upgrade Data Tool in Dashboard after install the update
+- NEW: Allow choose the Lat and Lng data by drag the marker in the map
+- New: Add new option to turn on/off confirm email for customer
+- New: Change all Location search field, for Car, allow to choose the same location for Drop-off. Require update the Location, choose the country that location belong to.
+- NEW: Now email can translate to other languages.
+- Update: Room pagination in Hotel Single
+- Update: Add new Rules for booking (Eg: Limit number of people per tour and use it for validate tour booking)
+- Update: Fix create Room Custom Price
+- Update: Tour and Activity. Now only support for price/person (Removed Price/Tour). Customer must input number of adult and children
+- Update: Fix Price Slider filter when change currency
+- Update: Fix booking with Modal not working
+- Update: Video not working in Safari browser
+- Update: Add more booking information in email
+- Update: Fix Booking in Dashboard not working
+- Update: Add validate for submit-form in Partner Dashboard.
+- Update: Fix allow Item choose multi-location
+- Fix some small issues of layout
+
+July 23th
+- [NEW] MAP (Full width, 1/2 Page) Feature for each Post type, contain Ajax Search, Filter on Map, Marker Information Box, and many other feature
+- [New] Hide admin-bar vs Normal User
+- [Update] Deposit for normal booking
+- [New] New element: Hotel Relate Item (Similar with rental, car, hotel)
+- [New] Hotel now can belong multi location
+- [New] Now can add more than once Search Tab with the same Type.
+- [New] Allow add custom css (with shortcode) to search form
+- [Update] Partner now can input the External Booking for Hotel (Car, Rental....)
+- [New] Now support for qTransalteX,
+- [New] Add new option allow Partner is allowed to set Featured for a Hotel
+- [Update] Fix element: ST Tour Price not working
+- [Update] Main color nor working
+- [Update] Rental Search By Name not working
+- [Update] Payment gateway for each Item in dashboard not working
+- [New] Add Car Review Summary
+- [Update] HOtel Near By wrong calculation
+- [Update] l10n for calendar
+- [New] Add Discount Flash for Hotel
+- [Update] Update Visual Composer to 4.6.1
+- [Update] New Demo Data
+- [Update] Rental Filter Not Working
+- [Update] Rental Orderby Price not working
+- [Update] Improve the Location Seach Field
+- [New] Add Location Taxonomy
+- [Update] Now Partner can set the Booking Period Date
+
+
+July 06th
+Traveler version 1.1.6 Date 06/07/2015	
+
+- HOT fix: Hotel Near error => Warning: extract() expects parameter 1 to be array, string given...
+- HOT fix: Gmap Not showing
+- HOT fix: Fatal error: Call to undefined function st_reg_taxonomy()
+- Update: Problem with price decimal when use Woocommerce Checkout (Eg 6.12$ will be 6.00$)
+- Update: Hotel Last minute deal not working if Room not beblong to other Hotel
+
+
+July 03rd
+Traveler version 1.1.5 Date 03/07/2015	
+- Update: Visual Composer
+- Fix bug in element: Price Filter
+- New: Layout Elements now can input Title field. (Example Review Title will not show if there is no review)
+- Update: Car review not showing
+- Update: Tour Date in element ST List Tours
+- New: Hide booked day in the calendar for Hotel and Rental
+- Update: Allow create room without choose the Hotel in Partner Zone
+- New: Hotel Room Layout, allow place review for Hotel Room, allow booking in Hotel Room detail page
+- New: Rental Room, allow place review for Rental Room
+- New: You can create custom fields for Hotel Room in theme options
+- New: Now you can input custom fields data right in the Partner Zone
+- New: Add ADE Currency
+- New: Activity can choose Daily and Specific Date.
+- New: Add new option to allow hide or show Shopping Address in Woocommerce Checkout page.
+- Update: Element "List of Rental" now can filter by taxonomy and terms
+- New: Element "ST Image Effect" now contain URL field.
+- New: Add new option to change Time format from 12h to 24h
+- New: Location detail page, add new layout for Location detail page
+- New: Add new option to allow custommer add one or more reviews per each Item
+- Update: Re-order and Re-create Partner menu
+- Update: Show Option tree menu in the backend
+- Fix: Car Booking not working. Get the message "Booking day in the past"
+
+
+
+June 22th 
+Traveler version 1.1.4 Date 22/06/2015	
+		HOT FIXED 
+- HOT FIX:Remove Call to undefined function st_reg_post_type()
+- Change Nearby item: Change order by date to order by distance and fix query problem
+- Fix Car Booking with Modal not working
+- Update: Search with location name
+- Fix: Booking Hotel show error with check-in and check-out
+- Update: Car now allow input Lat and Lon that use for Google Map in single page 
+
+June 19th 
+Traveler version 1.1.3 Date 19/06/2015	
+- New: Car Equipment price per day or per hour
+- New: Add Map in single Car
+- Update: Now allow to add or remove required field of Car Booking
+- New: Add option allow hide the user navigation box
+- Update: Change order_code to order_token_code in payment_success_url
+- Update: Add Adult and Children Price for Activity
+- Update layout for page Booking History
+- New: Show taxonomy icon for activity and tours
+- New: Now allow partner change status of his item (Publish to draft)
+- Update: Location URL in single page, now allow to choose between Search page or Location Single page
+- Update: Slide Location not show in mobile
+- Update: Fix link search in
+	ST simple location 
+	ST list location
+	ST slide location
+
+- Update: Add sort by taxonomy in
+	ST list tour
+	ST list activity
+- New: Now turn the filter in widget into VC Elements. Easy for user to create the left filter
+- Update: Allow to add more than one ST Text Slide in single page (The same with ST Search with background gallery)	
+- New: Now allow turn off theme service in Traveler Settings -> General Options. After disable Hotel (Car, Tour...) will be hide from the backend.
+
+
+June 17th 
+Traveler version 1.1.2.1 Date 17/06/2015	
+- [Updated] plugin Visual Composer to version 4.5.3
+
+[Hot fix]
+June 09th 
+Traveler version 1.1.2 Date 09/06/2015	
+
+- Hot Fix: Deposit Amount
+- New: Add option to show Hotel star instead of Review Score in search result page
+- Hot fix: Hotel Name not working
+- Hot fix: Add Deposit for Tour section
+- Hot fix: Review without login 
+
+
+June 05th 
+Traveler version 1.1.1 Date 05/06/2015	
+
+- NEW: Integrate with WOOCOMMERCE. Now you can use all PAYMENT GATEWAYS form Woocommerce.(Check out and Cart page are not the same look)
+- Update: Comment not showing in Page
+- New: Partner can add Location now
+- New: Sale Reporting for Partner
+- Update: use date_i18n when showing datetime
+- Update: Fix customer can see bookings from other customer
+- Fix: Filter with Location
+- Fix: Paging problem (404 not found problem when go to page 2 sometime)
+- Fix: Car filter not working
+- Update: Car Pick-up/ Droff-up time format
+- New: Add new search field: Search by title
+- Fix: Tour Nearby does not show the price
+
+
+May 22th 
+Traveler version 1.1.0 Date 22/05/2015	
+
+- New: Max people in Rental
+- Update: Demo data for One-click feature
+- Update: Turn layout shortcode to VC Elements
+- Update: Search in header compatible with WPML
+- Update: Partner Create Room function. Now allow to add room price with date range
+- Update: Add new option for Car (Traveler Settings->Car Options) allow set "Booking Days included check-in day". Example: 12/05/2015->13/05/2015 ===> Duration 2 days
+- NEW: Search result page now build in Page Template. Easy for create search results page.
+- Update: Update problem with car booking.
+- Update: Default Roboto font for heading tag
+- Update: Add effect for element "Slide Location" and "Slide Tetimonials"
+- Update: Partner Create Car: Partner’s Post must be approved by admin according to admin settings but is not working.
+- Update: User setting. Now user can change the Nick Name
+- Update: Search field now can set the required attribute
+- Update: Fix problem with element "ST Simple Location"
+- Update: Partner Create Hotel, Now partner can set the AVG Price for hotel
+- Update: Fix problem with Rental Search (No results found)
+- Update: Fix problem with "Change search" for Tour
+- Update: Fix pagination problem in list "My Hotel", the same problem for Car, Rental....
+- Update: Now Partner can view the Booking List of their item (Check The User Dashboard Page) 
+- Update: Traveler-code plugin to 1.0.9
+
+
+	
+May 13th 
+Traveler version 1.0.9 Date 13/05/2015	
+- New: Flaticon Uploader and more Add More Font Icons
+- New: Iconpicker for admin
+- New: Hotel room price 
+- New: Add new option allow show price with tax included in listing page and single page
+- New Hotel room search. Room price now is total price (depend on the check in and check out field)
+- Update Booking Rule: You can't make bookings x day(s) prior to the date wanted
+- Update: Now allow input Item Ids into some elements
+	+ ST List Activity
+	+ ST List Hotel
+	+ ST List Rental
+	+ ST List Tour
+	+ ST List Car
+	+ ST List Location
+- New: Hide Optiontree Menu in the admin panel
+- Update: Category Filter. Allow copy it and use for menu
+- New: Payment Gateway for each Item. Allow turn on/off for each bookable item.
+- New: Location Detail Layout
+- Update: Search autocomplete in header
+	+ Add new option to allow hide the search box
+	+ Add new option to allow search by  hotel, car or rental ... only
+	+ Add new option to change search order and order by
+
+May 5th 
+Traveler version 1.0.8 Date 05/05/2015 
+	- Update: Traveler-code Plugins to 1.0.7: Allow to update via Backend and auto check update
+	- Fix: Error in loop_room.php file (Single hotel)
+	- Update Paypal Checkout. 
+	- Fix: Redirect after paypal checkout
+	- Fix: Booking page : change Your payment "-> "Your order" when submit booking
+	- Fix Attribute: Can not add new attribute (Some customers)
+	- Fix Ipad Bug and Search Location Bug:  Ipad Responsive design
+	- Add: Add option to allow Turn off Guest Booking
+
+
+
+
+April 29th
+Traveler version 1.0.7 Date 29/04/2015  
+	- [Updated] plugin traveler-code to version 1.0.6
+	- [Updated] plugin Visual Composer to version 4.5
+	
+
+
+-----------------
+
+April 22th
+Traveler version 1.0.6 Date 22/04/2015  
+* Hot FIX:
+	1. Fix tab content in single page not showing.
+	2. Fix Login/ Register page
+
+
+* Update 21/04/2015
+April 21th 
+Traveler version 1.0.5 Date 21/04/2015  
+- NEW: Woocommerce Layout (Grid and List)
+- New: New search fields: Location Dropdown
+- New: Hide Location, Layout and  Coupon for partner in Admin
+- New: Only show Item of current partner in Wp-admin
+- NEW: You can add unlimited custom fields for  Hotel, Car, Rental....
+- NEW: You can add taxonomy in search fields
+- NEW: Search elements. Easy create search tab and search form
+
+- Fix: Change currency URL: Currency URL in header redirect to home page in hotel detail (use permalink)
+- Fix: Gmap not working with HTTPS
+- Fix: Last booking message wrong
+- Fix: User Dashboard URL permalinks.
+- Fix: User Dashboard Overview section
+- Fix: Booking detail only can see by user who book it
+- Fix: Custom css not show
+
+
+
+* Update 08/04/2015
+Traveler version 1.0.4 Date 08/04/2015  
+- Fix remove: Hotel link has question symbol in the end: 
+- Fix Tour Checkout with Paypal not working.
+- Fix Tour email information not correctly 
+- Fix Location URL in Breadcrumb go to blog page. 
+- Fix Grid Images Rote not working
+- Add Header Background Option
+- Fix Body Background
+- Fix Main wrap background
+- Fix activity permalink (404 error)
+- Add "ST Text Slider" allow turn off search form.
+
+---------------------------------------
+April 07th 
+Traveler version 1.0.3 Date 07/04/2015  
+- Fix: Custom css not show in frontend.
+- Fix: Missing ot_settings_id functions
+- Fix: Compatible with plugins: Envato Wordpress Toolkit
+- Fix: i18n Text in Profile Page.
+
+
+
+-------------------------------------------------------------------------
+April 06th
+Traveler version 1.0.2 Date 06/04/2015  
+*  
+- Update: Profile Page. Add marker history booking of user.
+- Add Option to change post type slug
+
+*  
+- Fix Order Confirm Not Send.
+- Add option to send email to admin and to Owner of item when there is new Booking.
+- Update "Traveler Settings" layout
+
+*  
+- Fix i18n in elements: List Car
+- Fix search room error: When no booking exists, search by room available was wrong.
+- Fix View Rental Booking Detail in Dashboard (Got blank page).
+
+* 
+- Fix breadcrumb link to 404 page.
+- Update Tour:
+	+ Tour Type: Daily tour, Specific Date
+	+ Price Type: Price / Tour, Price / Person
+	+ Input date user want to join tour.
+- Add Arabic Demo Content
+- Traveler-code update to v1.0.2 
+
+
+-----------------
+March 28th
+Traveler version 1.0.1 Date 28/03/2015  
+
+- Fix Admin Base Class issue.
+- Fix Page Template Name
+- Fix Single Car default datetime parse function.
+- Fix Language not working corectly
+- Update Plugin and Theme l10n
++ Add Scroll To Top Button
++ Now Admin can disable partner for tour, cars,......
+
+ 
+- Traveler-code plugin to v1.0.1
+- Traveler theme to v 1.0.1
++ Add Oneclick Importer
+- Fix and improve performance
+
+ 
+- Traveler theme to v1.0.1
+- Fix User online and last booking feature not working.
+- Fix: Remove "http://" from Hotel Email
+- Change: Tour metabox layouts
+- Update: Attribute page layout
++ Add: Sticky Menu, Turn on/off in theme-options
++ Add: None booked user can review
+
+March 24th 
+Released first verison
+Traveler version 1.0 Date 24/03/2015
+
+
+
+
+
+
+
+
+

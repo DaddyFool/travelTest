@@ -1,0 +1,33 @@
+<?php 
+ $lang['user_create_holiday']=__('Add new holiday','traveler');
+ $lang['user_create_holiday_title']=__('Title','traveler');
+ $lang['user_create_holiday_content']=__('Content','traveler');
+ $lang['user_create_holiday_description']=__('Description','traveler');
+ $lang['user_create_holiday_featured_image']=__('Featured Image','traveler');
+ $lang['user_create_holiday_general']=__('General','traveler');
+ $lang['user_create_holiday_type']=__('Holiday Type','traveler');
+ $lang['user_create_holiday_email']=__('Email','traveler');
+ $lang['user_create_holiday_video']=__('Video','traveler');
+ $lang['user_create_holiday_style_gallery']=__('Gallery Style','traveler');
+ $lang['user_create_holiday_grid']=__('Grid','traveler');
+ $lang['user_create_holiday_slider']=__('Slider','traveler');
+ $lang['user_create_holiday_gallery']=__('Gallery','traveler');
+ $lang['user_create_holiday_location']=__('Location','traveler');
+ $lang['user_create_holiday_location_search']=__('Location search','traveler');
+ $lang['user_create_holiday_address']=__('Address','traveler');
+ $lang['user_create_holiday_latitude']=__('Latitude','traveler');
+ $lang['user_create_holiday_longitude']=__('Longitude','traveler');
+ $lang['user_create_holiday_map_zoom']=__('Map Zoom','traveler');
+ $lang['user_create_holiday_price']=__('Price','traveler');
+ $lang['user_create_holiday_discount']=__('Discount rate','traveler');
+ $lang['user_create_holiday_external_booking']=__('Holiday external booking URL','traveler');
+
+ $lang['user_create_holiday_info']=__('Info','traveler');
+ $lang['user_create_holiday_duration']=__('Duration (days)','traveler');
+ $lang['user_create_holiday_max_people']=__('Maximum number of people','traveler');
+ $lang['user_create_holiday_program']=__('Holidays program','traveler');
+ $lang['user_create_holiday_add_program']=__('Add Program','traveler');
+ $lang['user_create_holiday_submit']=__('SUBMIT','traveler');
+ $lang['user_create_holiday_program_title']=__('Title','traveler');
+ $lang['user_create_holiday_program_desc']=__('Description','traveler');
+ $lang['user_create_holiday_program_del']=__('Del','traveler');
